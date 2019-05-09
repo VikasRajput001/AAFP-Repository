@@ -1,0 +1,2870 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>AddCampaign</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>AddToCampaign</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CallHighlightAction</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EmailHighlightAction</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EnableCustomerPortal</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EnablePartnerPortalUser</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EnableSelfService</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ListClean</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Merge</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>NewContact</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>RequestUpdate</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SmsHighlightAction</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Contact_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ViewCustomerPortal</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ViewPartnerPortalUser</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ViewSelfService</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>AAFP_Compact_Layout_Contact</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>AAFP_Compact_Layout_Contact</fullName>
+        <fields>Name</fields>
+        <fields>Title</fields>
+        <fields>Phone</fields>
+        <fields>Email</fields>
+        <fields>MobilePhone</fields>
+        <fields>State_Chapter__c</fields>
+        <fields>Local_Chapter__c</fields>
+        <label>AAFP Compact Layout - Contact</label>
+    </compactLayouts>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fieldSets>
+        <fullName>CPBase__Demo_Field_Set</fullName>
+        <availableFields>
+            <field>Email</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <description>Demo Field Set that powers the Profile Page</description>
+        <displayedFields>
+            <field>OrderApi__Personal_Email__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>OrderApi__Work_Email__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MailingStreet</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MailingCity</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MailingState</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MailingPostalCode</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>OrderApi__Work_Phone__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>Demo Field Set</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>LTE__Demo_Field_Set</fullName>
+        <description>Demo Field Set that powers the Profile Page</description>
+        <displayedFields>
+            <field>Email</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MailingStreet</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MailingCity</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MailingState</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MailingCountry</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MailingPostalCode</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>Demo Field Set</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>LTE__Manage_Members_Add_Member</fullName>
+        <description>Default Field Set used with site record</description>
+        <displayedFields>
+            <field>FirstName</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LastName</field>
+            <isFieldManaged>true</isFieldManaged>
+            <isRequired>true</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Email</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>Manage Members Add Member</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>OrderApi__Manage_Members_Display_Fieldset</fullName>
+        <description>A custom fieldset containing the default fields to display in the manage members table.</description>
+        <displayedFields>
+            <field>Name</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Email</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>Manage Members Display Fieldset</label>
+    </fieldSets>
+    <fields>
+        <fullName>AAFP_ID__c</fullName>
+        <description>Note this field already exists in AAFP orgs</description>
+        <externalId>false</externalId>
+        <label>AAFP ID</label>
+        <precision>18</precision>
+        <required>true</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AccountId</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Active_Medical_License__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Active Medical License</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Are_you_practicing_family_medicine__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Are you practicing family medicine?</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>AssistantName</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>AssistantPhone</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>Birthdate</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>Change_Chapter_To__c</fullName>
+        <description>To be entered by AAFP Staff. Used to send a report to Chapters.</description>
+        <externalId>false</externalId>
+        <label>Change Chapter To</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Chapter_Change_Active_Military__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Chapter Change Active Military</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Chapter_Change_Days_Out_of_Compliance__c</fullName>
+        <description>Formula: TODAY() – [Chapter Change Needed Date] to generate the days out of compliance (used in reporting)</description>
+        <externalId>false</externalId>
+        <formula>IF(NOT(ISNULL(Chapter_Change_Needed_Date__c)), 
+    TODAY() - Chapter_Change_Needed_Date__c, 
+    null
+ )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Chapter Change Days Out of Compliance</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Chapter_Change_Medical_License__c</fullName>
+        <description>Not required because change request may be separate from doc gathering Doc 1 BR 489/AD-1517</description>
+        <externalId>false</externalId>
+        <label>Chapter Change Medical License</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Chapter_Change_Needed_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Chapter Change Needed Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Chapter_Change_Needed__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Chapter Change Needed</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Chapter_Change_Outside_US__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Not required because change request may be separate from doc gathering Doc 1 BR 489/AD-1517</description>
+        <externalId>false</externalId>
+        <label>Chapter Change Outside US</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Current_Membership_Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Current Membership Status</label>
+        <required>true</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Active</fullName>
+                    <default>false</default>
+                    <label>Active</label>
+                </value>
+                <value>
+                    <fullName>Inactive</fullName>
+                    <default>false</default>
+                    <label>Inactive</label>
+                </value>
+                <value>
+                    <fullName>Expired</fullName>
+                    <default>false</default>
+                    <label>Expired</label>
+                </value>
+                <value>
+                    <fullName>Cancelled for Dues</fullName>
+                    <default>false</default>
+                    <label>Cancelled for Dues</label>
+                </value>
+                <value>
+                    <fullName>Cancelled for Dues + CME</fullName>
+                    <default>false</default>
+                    <label>Cancelled for Dues + CME</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>DRCTS__Directory_Preferences__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The JSON is used to hide the fields on the directory detail view.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The JSON is used to hide the fields on the directory detail view.</inlineHelpText>
+        <label>Directory Preferences</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Department</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>Description</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>DoNotCall</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>DonorApi__Active_Recurring_Gift__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>**System Calculated Field** Indicates wether this contact has an active recurring gift opportunity.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>**System Calculated Field** Indicates wether this contact has an active recurring gift opportunity.</inlineHelpText>
+        <label>Active Recurring Gift</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>DonorApi__Auto_Calculate_Contact_Greetings__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Default value for new contacts is true. When set to true the system will auto update the contact&apos;s personal greeting, personal recognition name, and formal greeting with the system default format. Personal = FirstName, Personal Recognition Name = Salutation FirstName LastName, Formal Greeting = Personal Recognition Name</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Default value for new contacts is true. When set to true the system will auto update the contact&apos;s personal greeting, personal recognition name, and formal greeting with the system default formats.</inlineHelpText>
+        <label>Auto Calculate Contact Greetings</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>DonorApi__Auto_Calculate_Current_Ask_Amount__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Default value for new contacts is true. When set to true the system will auto update the contact&apos;s current ask amount with the amount of the contact&apos;s last gift if the last gift amount is greater than 0.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Default value for new contacts is true. When set to true the system will auto update the contact&apos;s current ask amount with the amount of the contact&apos;s last gift if the last gift amount is greater than 0.</inlineHelpText>
+        <label>Auto Calculate Current Ask Amount</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>DonorApi__Current_Ask_Amount__c</fullName>
+        <deprecated>false</deprecated>
+        <description>What is the target current ask amount for this person?</description>
+        <externalId>false</externalId>
+        <inlineHelpText>What is the target current ask amount for this person?</inlineHelpText>
+        <label>Current Ask Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>DonorApi__Deceased__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>check if the contact is deceased</description>
+        <externalId>false</externalId>
+        <inlineHelpText>check if the contact is deceased</inlineHelpText>
+        <label>Deceased</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>DonorApi__Default_Greeting_Type__c</fullName>
+        <deprecated>false</deprecated>
+        <description>*DO NOT CHANGE*</description>
+        <externalId>false</externalId>
+        <inlineHelpText>*DO NOT CHANGE*</inlineHelpText>
+        <label>Default Greeting Type</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Personal Greeting</fullName>
+                    <default>true</default>
+                    <label>Personal Greeting</label>
+                </value>
+                <value>
+                    <fullName>Formal Greeting</fullName>
+                    <default>false</default>
+                    <label>Formal Greeting</label>
+                </value>
+                <value>
+                    <fullName>Personal Recognition Name</fullName>
+                    <default>false</default>
+                    <label>Personal Recognition Name</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>DonorApi__Default_Greeting__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL(DonorApi__Default_Greeting_Type__c,&quot;Personal Greeting&quot;), DonorApi__Personal_Greeting__c,
+IF(ISPICKVAL(DonorApi__Default_Greeting_Type__c,&quot;Personal Recognition Name&quot;), DonorApi__Personal_Recognition_Name__c,
+IF(ISPICKVAL(DonorApi__Default_Greeting_Type__c,&quot;Formal Greeting&quot;), DonorApi__Formal_Greeting__c,DonorApi__Personal_Greeting__c)))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Default Greeting</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DonorApi__Direct_Mail_Opt_Out__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Exclude this contact from all direct mail campaigns.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Exclude this contact from all direct mail campaigns.</inlineHelpText>
+        <label>Direct Mail Opt Out</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>DonorApi__Do_Not_Solicit__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Do not solicit this contact. By default when flagged the contact will be excluded from all campaigns.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Do not solicit this contact. By default when flagged the contact will be excluded from all campaigns.</inlineHelpText>
+        <label>Do Not Solicit</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>DonorApi__First_Gift_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <description>**System Calculated Field** Calculates the first gift received date for all related gifts.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>**System Calculated Field** Calculates the first gift received date for all related gifts.</inlineHelpText>
+        <label>First Gift Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>DonorApi__Formal_Greeting__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Formal Greeting for the contact</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Formal Greeting for the contact</inlineHelpText>
+        <label>Formal Greeting</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DonorApi__Gift_Opportunities__c</fullName>
+        <defaultValue>0</defaultValue>
+        <deprecated>false</deprecated>
+        <description>**System Calculated Field** Counts the total number of related gift opportunities (Sales Orders with type &quot;Gift Opportunity&quot;) -- for the contact.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>**System Calculated Field** Counts the total number of related gift opportunities (Sales Orders with type &quot;Gift Opportunity&quot;) -- for the contact.</inlineHelpText>
+        <label>Gift Opportunities</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DonorApi__Gifts_Outstanding__c</fullName>
+        <defaultValue>0</defaultValue>
+        <deprecated>false</deprecated>
+        <description>**System Calculated Field** Sum of the balance due for all outstanding pledges.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>**System Calculated Field** Sum of the balance due for all outstanding pledges.</inlineHelpText>
+        <label>Gifts Outstanding</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>DonorApi__Gifts_Received__c</fullName>
+        <defaultValue>0</defaultValue>
+        <deprecated>false</deprecated>
+        <description>**System Calculated Field** Sum of hard credits.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>**System Calculated Field** Sum of hard credits.</inlineHelpText>
+        <label>Gifts Received</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>DonorApi__Gifts_Value__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>DonorApi__Gifts_Outstanding__c + DonorApi__Gifts_Received__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Gifts Value</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>DonorApi__Include_in_Household_Greetings__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>If set to true, the contact will be included on all household greetings. This flag will automatically populate to true if the contact is the primary contact on a related account.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>If set to true, the contact will be included on all household greetings. This flag will automatically populate to true if the contact is the primary contact on a related account.</inlineHelpText>
+        <label>Include in Household Greetings</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>DonorApi__Languages__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Languages that the contact can speak.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Languages that the contact can speak.</inlineHelpText>
+        <label>Languages</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DonorApi__Largest_Gift__c</fullName>
+        <deprecated>false</deprecated>
+        <description>**System Calculated Field** Calculates the largest gift amount for all related gifts.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>**System Calculated Field** Calculates the largest gift amount for all related gifts.</inlineHelpText>
+        <label>Largest Gift</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>DonorApi__Last_Gift_Amount__c</fullName>
+        <defaultValue>0.00</defaultValue>
+        <deprecated>false</deprecated>
+        <description>**System Calculated Field** Calculates the amount of the last gift received from the related contact.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>**System Calculated Field** Calculates the amount of the last gift received from the related contact.</inlineHelpText>
+        <label>Last Gift Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>DonorApi__Last_Gift_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <description>**System Calculated Field** Calculates the last gift date for all related gifts.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>**System Calculated Field** Calculates the last gift date for all related gifts.</inlineHelpText>
+        <label>Last Gift Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>DonorApi__Personal_Greeting__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Personal greeting to be used for communications and solicitations to the contact.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Personal greeting to be used for communications and solicitations to the contact.</inlineHelpText>
+        <label>Personal Greeting</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DonorApi__Personal_Recognition_Name__c</fullName>
+        <deprecated>false</deprecated>
+        <description>If this person gives anonymously, or preferrs to be recognized by a different name in donor acknowledgement materials, what is it?</description>
+        <externalId>false</externalId>
+        <inlineHelpText>If this person gives anonymously, or preferrs to be recognized by a different name in donor acknowledgement materials, what is it?</inlineHelpText>
+        <label>Personal Recognition Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DonorApi__Primary_Relationship_Manager__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Select the person who is responsible for owning this relationship with this constituent. This will create a new record in this contacts relationship related list.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Select the person who is responsible for owning this relationship with this constituent. This will create a new record in this contacts relationship related list.</inlineHelpText>
+        <label>Primary Relationship Manager</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Relationship Manager (Contacts)</relationshipLabel>
+        <relationshipName>Contacts</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>DonorApi__Primary__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates wether this contact is the primary contact for the related account.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates wether this contact is the primary contact for the related account.</inlineHelpText>
+        <label>Primary</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>DonorApi__Spouse__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Spouse</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Contacts (Spouse)</relationshipLabel>
+        <relationshipName>Spouse_Contacts</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>DonorApi__Suffix__c</fullName>
+        <deprecated>false</deprecated>
+        <description>List of common academic, honorary, professional, and generational suffixes.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>List of common academic, honorary, professional, and generational suffixes.</inlineHelpText>
+        <label>Suffix</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>CPA</fullName>
+                    <default>false</default>
+                    <label>CPA</label>
+                </value>
+                <value>
+                    <fullName>D.D.S.</fullName>
+                    <default>false</default>
+                    <label>D.D.S.</label>
+                </value>
+                <value>
+                    <fullName>D.M.D.</fullName>
+                    <default>false</default>
+                    <label>D.M.D.</label>
+                </value>
+                <value>
+                    <fullName>D.V.M.</fullName>
+                    <default>false</default>
+                    <label>D.V.M.</label>
+                </value>
+                <value>
+                    <fullName>Ed.D.</fullName>
+                    <default>false</default>
+                    <label>Ed.D.</label>
+                </value>
+                <value>
+                    <fullName>Esq.</fullName>
+                    <default>false</default>
+                    <label>Esq.</label>
+                </value>
+                <value>
+                    <fullName>II</fullName>
+                    <default>false</default>
+                    <label>II</label>
+                </value>
+                <value>
+                    <fullName>III</fullName>
+                    <default>false</default>
+                    <label>III</label>
+                </value>
+                <value>
+                    <fullName>IV</fullName>
+                    <default>false</default>
+                    <label>IV</label>
+                </value>
+                <value>
+                    <fullName>Jr.</fullName>
+                    <default>false</default>
+                    <label>Jr.</label>
+                </value>
+                <value>
+                    <fullName>M.D.</fullName>
+                    <default>false</default>
+                    <label>M.D.</label>
+                </value>
+                <value>
+                    <fullName>Ph.D.</fullName>
+                    <default>false</default>
+                    <label>Ph.D.</label>
+                </value>
+                <value>
+                    <fullName>R.N.</fullName>
+                    <default>false</default>
+                    <label>R.N.</label>
+                </value>
+                <value>
+                    <fullName>R.N.C.</fullName>
+                    <default>false</default>
+                    <label>R.N.C.</label>
+                </value>
+                <value>
+                    <fullName>Ret.</fullName>
+                    <default>false</default>
+                    <label>Ret.</label>
+                </value>
+                <value>
+                    <fullName>Sr.</fullName>
+                    <default>false</default>
+                    <label>Sr.</label>
+                </value>
+                <value>
+                    <fullName>USA</fullName>
+                    <default>false</default>
+                    <label>USA</label>
+                </value>
+                <value>
+                    <fullName>USAF</fullName>
+                    <default>false</default>
+                    <label>USAF</label>
+                </value>
+                <value>
+                    <fullName>USAFR</fullName>
+                    <default>false</default>
+                    <label>USAFR</label>
+                </value>
+                <value>
+                    <fullName>USAR</fullName>
+                    <default>false</default>
+                    <label>USAR</label>
+                </value>
+                <value>
+                    <fullName>USCG</fullName>
+                    <default>false</default>
+                    <label>USCG</label>
+                </value>
+                <value>
+                    <fullName>USMC</fullName>
+                    <default>false</default>
+                    <label>USMC</label>
+                </value>
+                <value>
+                    <fullName>USMCR</fullName>
+                    <default>false</default>
+                    <label>USMCR</label>
+                </value>
+                <value>
+                    <fullName>USN</fullName>
+                    <default>false</default>
+                    <label>USN</label>
+                </value>
+                <value>
+                    <fullName>USNR</fullName>
+                    <default>false</default>
+                    <label>USNR</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Dues_Paid_by_Chapter__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Populated by current Active Membership record; used for faster MSO reference and filtering for invoice payment.. This field is used in the solution for requirement BR</description>
+        <externalId>false</externalId>
+        <label>Dues Paid by Chapter</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Dues_Paid_by_Residency_Program__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Populated by current Active Membership record; used for faster MSO reference and filtering for invoice payment. This field is used in the solution for requirement BR 538 / AD-1552 (See Design Doc 2)</description>
+        <externalId>false</externalId>
+        <label>Dues Paid by Residency Program</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Eligible_for_Life__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Set by regular process (see Design Doc 2, BR 181/AD-188)</description>
+        <externalId>false</externalId>
+        <label>Eligible for Life</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Email</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>Fax</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>FontevaReports__Languages__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Languages</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FontevaReports__Level__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Level</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Secondary</fullName>
+                    <default>false</default>
+                    <label>Secondary</label>
+                </value>
+                <value>
+                    <fullName>Tertiary</fullName>
+                    <default>false</default>
+                    <label>Tertiary</label>
+                </value>
+                <value>
+                    <fullName>Primary</fullName>
+                    <default>false</default>
+                    <label>Primary</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Graduating_Resident__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Set by regular process (see Design Doc 2, BR 180/AD-187)
+Fields and/or Badges can be used for Pricing Attributes.</description>
+        <externalId>false</externalId>
+        <label>Graduating Resident</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Graduation_Date__c</fullName>
+        <description>Physician&apos;s graduation date</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Physician&apos;s graduation date</inlineHelpText>
+        <label>Graduation Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>HasOptedOutOfEmail</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>HasOptedOutOfFax</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>HomePhone</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>IndividualId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Jigsaw</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>LastCURequestDate</fullName>
+    </fields>
+    <fields>
+        <fullName>LastCUUpdateDate</fullName>
+    </fields>
+    <fields>
+        <fullName>LeadSource</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>License_Country__c</fullName>
+        <externalId>false</externalId>
+        <label>License Country</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>US</fullName>
+                    <default>false</default>
+                    <label>US</label>
+                </value>
+                <value>
+                    <fullName>Canada</fullName>
+                    <default>false</default>
+                    <label>Canada</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>License_Issuance_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>License Issuance Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>License_Number__c</fullName>
+        <externalId>false</externalId>
+        <label>License Number</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Local_Chapter__c</fullName>
+        <externalId>false</externalId>
+        <label>Local Chapter</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>VA Northern Virginia</fullName>
+                    <default>false</default>
+                    <label>VA Northern Virginia</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>MailingAddress</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>Medical_School__c</fullName>
+        <externalId>false</externalId>
+        <label>Medical School</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Albany Medical College</fullName>
+                    <default>false</default>
+                    <label>Albany Medical College</label>
+                </value>
+                <value>
+                    <fullName>Albert Einstein College of Medicine</fullName>
+                    <default>false</default>
+                    <label>Albert Einstein College of Medicine</label>
+                </value>
+                <value>
+                    <fullName>Baylor College of Medicine</fullName>
+                    <default>false</default>
+                    <label>Baylor College of Medicine</label>
+                </value>
+                <value>
+                    <fullName>Boston University School of Medicine</fullName>
+                    <default>false</default>
+                    <label>Boston University School of Medicine</label>
+                </value>
+                <value>
+                    <fullName>Brody School of Medicine at East Carolina University</fullName>
+                    <default>false</default>
+                    <label>Brody School of Medicine at East Carolina University</label>
+                </value>
+                <value>
+                    <fullName>CUNY School of Medicine</fullName>
+                    <default>false</default>
+                    <label>CUNY School of Medicine</label>
+                </value>
+                <value>
+                    <fullName>California Northstate University College of Medicine</fullName>
+                    <default>false</default>
+                    <label>California Northstate University College of Medicine</label>
+                </value>
+                <value>
+                    <fullName>Case Western Reserve University School of Medicine</fullName>
+                    <default>false</default>
+                    <label>Case Western Reserve University School of Medicine</label>
+                </value>
+                <value>
+                    <fullName>Central Michigan University College of Medicine</fullName>
+                    <default>false</default>
+                    <label>Central Michigan University College of Medicine</label>
+                </value>
+                <value>
+                    <fullName>Charles E. Schmidt College of Medicine at Florida Atlantic University</fullName>
+                    <default>false</default>
+                    <label>Charles E. Schmidt College of Medicine at Florida Atlantic University</label>
+                </value>
+                <value>
+                    <fullName>Chicago Medical School at Rosalind Franklin University of Medicine &amp; Science</fullName>
+                    <default>false</default>
+                    <label>Chicago Medical School at Rosalind Franklin University of Medicine &amp; Science</label>
+                </value>
+                <value>
+                    <fullName>Columbia University Vagelos College of Physicians and Surgeons</fullName>
+                    <default>false</default>
+                    <label>Columbia University Vagelos College of Physicians and Surgeons</label>
+                </value>
+                <value>
+                    <fullName>Cooper Medical School of Rowan University</fullName>
+                    <default>false</default>
+                    <label>Cooper Medical School of Rowan University</label>
+                </value>
+                <value>
+                    <fullName>Creighton University School of Medicine</fullName>
+                    <default>false</default>
+                    <label>Creighton University School of Medicine</label>
+                </value>
+                <value>
+                    <fullName>Donald and Barbara Zucker School of Medicine at Hofstra/Northwell</fullName>
+                    <default>false</default>
+                    <label>Donald and Barbara Zucker School of Medicine at Hofstra/Northwell</label>
+                </value>
+                <value>
+                    <fullName>Drexel University College of Medicine</fullName>
+                    <default>false</default>
+                    <label>Drexel University College of Medicine</label>
+                </value>
+                <value>
+                    <fullName>Duke University School of Medicine</fullName>
+                    <default>false</default>
+                    <label>Duke University School of Medicine</label>
+                </value>
+                <value>
+                    <fullName>East Tennessee State University James H. Quillen College of Medicine</fullName>
+                    <default>false</default>
+                    <label>East Tennessee State University James H. Quillen College of Medicine</label>
+                </value>
+                <value>
+                    <fullName>Eastern Virginia Medical School</fullName>
+                    <default>false</default>
+                    <label>Eastern Virginia Medical School</label>
+                </value>
+                <value>
+                    <fullName>Emory University School of Medicine</fullName>
+                    <default>false</default>
+                    <label>Emory University School of Medicine</label>
+                </value>
+                <value>
+                    <fullName>Florida International University Herbert Wertheim College of Medicine</fullName>
+                    <default>false</default>
+                    <label>Florida International University Herbert Wertheim College of Medicine</label>
+                </value>
+                <value>
+                    <fullName>Florida State University College of Medicine</fullName>
+                    <default>false</default>
+                    <label>Florida State University College of Medicine</label>
+                </value>
+                <value>
+                    <fullName>Frank H. Netter MD School of Medicine at Quinnipiac University</fullName>
+                    <default>false</default>
+                    <label>Frank H. Netter MD School of Medicine at Quinnipiac University</label>
+                </value>
+                <value>
+                    <fullName>Geisel School of Medicine at Dartmouth</fullName>
+                    <default>false</default>
+                    <label>Geisel School of Medicine at Dartmouth</label>
+                </value>
+                <value>
+                    <fullName>Geisinger Commonwealth School of Medicine</fullName>
+                    <default>false</default>
+                    <label>Geisinger Commonwealth School of Medicine</label>
+                </value>
+                <value>
+                    <fullName>George Washington University School of Medicine and Health Sciences</fullName>
+                    <default>false</default>
+                    <label>George Washington University School of Medicine and Health Sciences</label>
+                </value>
+                <value>
+                    <fullName>Georgetown University School of Medicine</fullName>
+                    <default>false</default>
+                    <label>Georgetown University School of Medicine</label>
+                </value>
+                <value>
+                    <fullName>Harvard Medical School</fullName>
+                    <default>false</default>
+                    <label>Harvard Medical School</label>
+                </value>
+                <value>
+                    <fullName>Howard University College of Medicine</fullName>
+                    <default>false</default>
+                    <label>Howard University College of Medicine</label>
+                </value>
+                <value>
+                    <fullName>Icahn School of Medicine at Mount Sinai</fullName>
+                    <default>false</default>
+                    <label>Icahn School of Medicine at Mount Sinai</label>
+                </value>
+                <value>
+                    <fullName>Indiana University School of Medicine</fullName>
+                    <default>false</default>
+                    <label>Indiana University School of Medicine</label>
+                </value>
+                <value>
+                    <fullName>Jacobs School of Medicine and Biomedical Sciences at the University at Buffalo</fullName>
+                    <default>false</default>
+                    <label>Jacobs School of Medicine and Biomedical Sciences at the University at Buffalo</label>
+                </value>
+                <value>
+                    <fullName>Johns Hopkins University School of Medicine</fullName>
+                    <default>false</default>
+                    <label>Johns Hopkins University School of Medicine</label>
+                </value>
+                <value>
+                    <fullName>Keck School of Medicine of the University of Southern California</fullName>
+                    <default>false</default>
+                    <label>Keck School of Medicine of the University of Southern California</label>
+                </value>
+                <value>
+                    <fullName>Lewis Katz School of Medicine at Temple University</fullName>
+                    <default>false</default>
+                    <label>Lewis Katz School of Medicine at Temple University</label>
+                </value>
+                <value>
+                    <fullName>Loma Linda University School of Medicine</fullName>
+                    <default>false</default>
+                    <label>Loma Linda University School of Medicine</label>
+                </value>
+                <value>
+                    <fullName>Louisiana State University School of Medicine in New Orleans</fullName>
+                    <default>false</default>
+                    <label>Louisiana State University School of Medicine in New Orleans</label>
+                </value>
+                <value>
+                    <fullName>Louisiana State University School of Medicine in Shreveport</fullName>
+                    <default>false</default>
+                    <label>Louisiana State University School of Medicine in Shreveport</label>
+                </value>
+                <value>
+                    <fullName>Loyola University Chicago Stritch School of Medicine</fullName>
+                    <default>false</default>
+                    <label>Loyola University Chicago Stritch School of Medicine</label>
+                </value>
+                <value>
+                    <fullName>Marshall University Joan C. Edwards School of Medicine</fullName>
+                    <default>false</default>
+                    <label>Marshall University Joan C. Edwards School of Medicine</label>
+                </value>
+                <value>
+                    <fullName>Mayo Clinic School of Medicine</fullName>
+                    <default>false</default>
+                    <label>Mayo Clinic School of Medicine</label>
+                </value>
+                <value>
+                    <fullName>McGovern Medical School at the University of Texas Health Science Center at Houston</fullName>
+                    <default>false</default>
+                    <label>McGovern Medical School at the University of Texas Health Science Center at Houston</label>
+                </value>
+                <value>
+                    <fullName>Medical College of Georgia at Augusta University</fullName>
+                    <default>false</default>
+                    <label>Medical College of Georgia at Augusta University</label>
+                </value>
+                <value>
+                    <fullName>Medical College of Wisconsin</fullName>
+                    <default>false</default>
+                    <label>Medical College of Wisconsin</label>
+                </value>
+                <value>
+                    <fullName>Medical University of South Carolina College of Medicine</fullName>
+                    <default>false</default>
+                    <label>Medical University of South Carolina College of Medicine</label>
+                </value>
+                <value>
+                    <fullName>Meharry Medical College</fullName>
+                    <default>false</default>
+                    <label>Meharry Medical College</label>
+                </value>
+                <value>
+                    <fullName>Mercer University School of Medicine</fullName>
+                    <default>false</default>
+                    <label>Mercer University School of Medicine</label>
+                </value>
+                <value>
+                    <fullName>Michigan State University College of Human Medicine</fullName>
+                    <default>false</default>
+                    <label>Michigan State University College of Human Medicine</label>
+                </value>
+                <value>
+                    <fullName>Morehouse School of Medicine</fullName>
+                    <default>false</default>
+                    <label>Morehouse School of Medicine</label>
+                </value>
+                <value>
+                    <fullName>New York Medical College</fullName>
+                    <default>false</default>
+                    <label>New York Medical College</label>
+                </value>
+                <value>
+                    <fullName>New York University School of Medicine</fullName>
+                    <default>false</default>
+                    <label>New York University School of Medicine</label>
+                </value>
+                <value>
+                    <fullName>Northeast Ohio Medical University</fullName>
+                    <default>false</default>
+                    <label>Northeast Ohio Medical University</label>
+                </value>
+                <value>
+                    <fullName>Northwestern University The Feinberg School of Medicine</fullName>
+                    <default>false</default>
+                    <label>Northwestern University The Feinberg School of Medicine</label>
+                </value>
+                <value>
+                    <fullName>Oakland University William Beaumont School of Medicine</fullName>
+                    <default>false</default>
+                    <label>Oakland University William Beaumont School of Medicine</label>
+                </value>
+                <value>
+                    <fullName>Ohio State University College of Medicine</fullName>
+                    <default>false</default>
+                    <label>Ohio State University College of Medicine</label>
+                </value>
+                <value>
+                    <fullName>Oregon Health &amp; Science University School of Medicine</fullName>
+                    <default>false</default>
+                    <label>Oregon Health &amp; Science University School of Medicine</label>
+                </value>
+                <value>
+                    <fullName>Pennsylvania State University College of Medicine</fullName>
+                    <default>false</default>
+                    <label>Pennsylvania State University College of Medicine</label>
+                </value>
+                <value>
+                    <fullName>Perelman School of Medicine at the University of Pennsylvania</fullName>
+                    <default>false</default>
+                    <label>Perelman School of Medicine at the University of Pennsylvania</label>
+                </value>
+                <value>
+                    <fullName>Ponce Health Sciences University School of Medicine</fullName>
+                    <default>false</default>
+                    <label>Ponce Health Sciences University School of Medicine</label>
+                </value>
+                <value>
+                    <fullName>Robert Larner, M.D., College of Medicine at the University of Vermont</fullName>
+                    <default>false</default>
+                    <label>Robert Larner, M.D., College of Medicine at the University of Vermont</label>
+                </value>
+                <value>
+                    <fullName>Rush Medical College of Rush University Medical Center</fullName>
+                    <default>false</default>
+                    <label>Rush Medical College of Rush University Medical Center</label>
+                </value>
+                <value>
+                    <fullName>Rutgers New Jersey Medical School</fullName>
+                    <default>false</default>
+                    <label>Rutgers New Jersey Medical School</label>
+                </value>
+                <value>
+                    <fullName>Rutgers, Robert Wood Johnson Medical School</fullName>
+                    <default>false</default>
+                    <label>Rutgers, Robert Wood Johnson Medical School</label>
+                </value>
+                <value>
+                    <fullName>Saint Louis University School of Medicine</fullName>
+                    <default>false</default>
+                    <label>Saint Louis University School of Medicine</label>
+                </value>
+                <value>
+                    <fullName>San Juan Bautista School of Medicine</fullName>
+                    <default>false</default>
+                    <label>San Juan Bautista School of Medicine</label>
+                </value>
+                <value>
+                    <fullName>Sidney Kimmel Medical College at Thomas Jefferson University</fullName>
+                    <default>false</default>
+                    <label>Sidney Kimmel Medical College at Thomas Jefferson University</label>
+                </value>
+                <value>
+                    <fullName>Southern Illinois University School of Medicine</fullName>
+                    <default>false</default>
+                    <label>Southern Illinois University School of Medicine</label>
+                </value>
+                <value>
+                    <fullName>Stanford University School of Medicine</fullName>
+                    <default>false</default>
+                    <label>Stanford University School of Medicine</label>
+                </value>
+                <value>
+                    <fullName>State University of New York Downstate Medical Center College of Medicine</fullName>
+                    <default>false</default>
+                    <label>State University of New York Downstate Medical Center College of Medicine</label>
+                </value>
+                <value>
+                    <fullName>State University of New York Upstate Medical University</fullName>
+                    <default>false</default>
+                    <label>State University of New York Upstate Medical University</label>
+                </value>
+                <value>
+                    <fullName>Stony Brook University School of Medicine</fullName>
+                    <default>false</default>
+                    <label>Stony Brook University School of Medicine</label>
+                </value>
+                <value>
+                    <fullName>Texas A&amp;M Health Science Center College of Medicine</fullName>
+                    <default>false</default>
+                    <label>Texas A&amp;M Health Science Center College of Medicine</label>
+                </value>
+                <value>
+                    <fullName>Texas Tech University Health Sciences Center Paul L. Foster School of Medicine</fullName>
+                    <default>false</default>
+                    <label>Texas Tech University Health Sciences Center Paul L. Foster School of Medicine</label>
+                </value>
+                <value>
+                    <fullName>Texas Tech University Health Sciences Center School of Medicine</fullName>
+                    <default>false</default>
+                    <label>Texas Tech University Health Sciences Center School of Medicine</label>
+                </value>
+                <value>
+                    <fullName>The University of Toledo College of Medicine</fullName>
+                    <default>false</default>
+                    <label>The University of Toledo College of Medicine</label>
+                </value>
+                <value>
+                    <fullName>The Warren Alpert Medical School of Brown University</fullName>
+                    <default>false</default>
+                    <label>The Warren Alpert Medical School of Brown University</label>
+                </value>
+                <value>
+                    <fullName>Tufts University School of Medicine</fullName>
+                    <default>false</default>
+                    <label>Tufts University School of Medicine</label>
+                </value>
+                <value>
+                    <fullName>Tulane University School of Medicine</fullName>
+                    <default>false</default>
+                    <label>Tulane University School of Medicine</label>
+                </value>
+                <value>
+                    <fullName>USF Health Morsani College of Medicine</fullName>
+                    <default>false</default>
+                    <label>USF Health Morsani College of Medicine</label>
+                </value>
+                <value>
+                    <fullName>Uniformed Services University of the Health Sciences F. Edward Hebert School of Medicine</fullName>
+                    <default>false</default>
+                    <label>Uniformed Services University of the Health Sciences F. Edward Hebert School of Medicine</label>
+                </value>
+                <value>
+                    <fullName>Universidad Central del Caribe School of Medicine</fullName>
+                    <default>false</default>
+                    <label>Universidad Central del Caribe School of Medicine</label>
+                </value>
+                <value>
+                    <fullName>University of Alabama School of Medicine</fullName>
+                    <default>false</default>
+                    <label>University of Alabama School of Medicine</label>
+                </value>
+                <value>
+                    <fullName>University of Arizona College of Medicine</fullName>
+                    <default>false</default>
+                    <label>University of Arizona College of Medicine</label>
+                </value>
+                <value>
+                    <fullName>University of Arizona College of Medicine - Phoenix</fullName>
+                    <default>false</default>
+                    <label>University of Arizona College of Medicine - Phoenix</label>
+                </value>
+                <value>
+                    <fullName>University of Arkansas for Medical Sciences College of Medicine</fullName>
+                    <default>false</default>
+                    <label>University of Arkansas for Medical Sciences College of Medicine</label>
+                </value>
+                <value>
+                    <fullName>University of California, Davis, School of Medicine</fullName>
+                    <default>false</default>
+                    <label>University of California, Davis, School of Medicine</label>
+                </value>
+                <value>
+                    <fullName>University of California, Irvine, School of Medicine</fullName>
+                    <default>false</default>
+                    <label>University of California, Irvine, School of Medicine</label>
+                </value>
+                <value>
+                    <fullName>University of California, Los Angeles David Geffen School of Medicine</fullName>
+                    <default>false</default>
+                    <label>University of California, Los Angeles David Geffen School of Medicine</label>
+                </value>
+                <value>
+                    <fullName>University of California, Riverside School of Medicine</fullName>
+                    <default>false</default>
+                    <label>University of California, Riverside School of Medicine</label>
+                </value>
+                <value>
+                    <fullName>University of California, San Diego School of Medicine</fullName>
+                    <default>false</default>
+                    <label>University of California, San Diego School of Medicine</label>
+                </value>
+                <value>
+                    <fullName>University of California, San Francisco, School of Medicine</fullName>
+                    <default>false</default>
+                    <label>University of California, San Francisco, School of Medicine</label>
+                </value>
+                <value>
+                    <fullName>University of Central Florida College of Medicine</fullName>
+                    <default>false</default>
+                    <label>University of Central Florida College of Medicine</label>
+                </value>
+                <value>
+                    <fullName>University of Chicago Division of the Biological Sciences The Pritzker School of Medicine</fullName>
+                    <default>false</default>
+                    <label>University of Chicago Division of the Biological Sciences The Pritzker School of Medicine</label>
+                </value>
+                <value>
+                    <fullName>University of Cincinnati College of Medicine</fullName>
+                    <default>false</default>
+                    <label>University of Cincinnati College of Medicine</label>
+                </value>
+                <value>
+                    <fullName>University of Colorado School of Medicine</fullName>
+                    <default>false</default>
+                    <label>University of Colorado School of Medicine</label>
+                </value>
+                <value>
+                    <fullName>University of Connecticut School of Medicine</fullName>
+                    <default>false</default>
+                    <label>University of Connecticut School of Medicine</label>
+                </value>
+                <value>
+                    <fullName>University of Florida College of Medicine</fullName>
+                    <default>false</default>
+                    <label>University of Florida College of Medicine</label>
+                </value>
+                <value>
+                    <fullName>University of Hawaii, John A. Burns School of Medicine</fullName>
+                    <default>false</default>
+                    <label>University of Hawaii, John A. Burns School of Medicine</label>
+                </value>
+                <value>
+                    <fullName>University of Illinois College of Medicine</fullName>
+                    <default>false</default>
+                    <label>University of Illinois College of Medicine</label>
+                </value>
+                <value>
+                    <fullName>University of Iowa Roy J. and Lucille A. Carver College of Medicine</fullName>
+                    <default>false</default>
+                    <label>University of Iowa Roy J. and Lucille A. Carver College of Medicine</label>
+                </value>
+                <value>
+                    <fullName>University of Kansas School of Medicine</fullName>
+                    <default>false</default>
+                    <label>University of Kansas School of Medicine</label>
+                </value>
+                <value>
+                    <fullName>University of Kentucky College of Medicine</fullName>
+                    <default>false</default>
+                    <label>University of Kentucky College of Medicine</label>
+                </value>
+                <value>
+                    <fullName>University of Louisville School of Medicine</fullName>
+                    <default>false</default>
+                    <label>University of Louisville School of Medicine</label>
+                </value>
+                <value>
+                    <fullName>University of Maryland School of Medicine</fullName>
+                    <default>false</default>
+                    <label>University of Maryland School of Medicine</label>
+                </value>
+                <value>
+                    <fullName>University of Massachusetts Medical School</fullName>
+                    <default>false</default>
+                    <label>University of Massachusetts Medical School</label>
+                </value>
+                <value>
+                    <fullName>University of Miami Leonard M. Miller School of Medicine</fullName>
+                    <default>false</default>
+                    <label>University of Miami Leonard M. Miller School of Medicine</label>
+                </value>
+                <value>
+                    <fullName>University of Michigan Medical School</fullName>
+                    <default>false</default>
+                    <label>University of Michigan Medical School</label>
+                </value>
+                <value>
+                    <fullName>University of Minnesota Medical School</fullName>
+                    <default>false</default>
+                    <label>University of Minnesota Medical School</label>
+                </value>
+                <value>
+                    <fullName>University of Mississippi School of Medicine</fullName>
+                    <default>false</default>
+                    <label>University of Mississippi School of Medicine</label>
+                </value>
+                <value>
+                    <fullName>University of Missouri-Columbia School of Medicine</fullName>
+                    <default>false</default>
+                    <label>University of Missouri-Columbia School of Medicine</label>
+                </value>
+                <value>
+                    <fullName>University of Missouri-Kansas City School of Medicine</fullName>
+                    <default>false</default>
+                    <label>University of Missouri-Kansas City School of Medicine</label>
+                </value>
+                <value>
+                    <fullName>University of Nebraska College of Medicine</fullName>
+                    <default>false</default>
+                    <label>University of Nebraska College of Medicine</label>
+                </value>
+                <value>
+                    <fullName>University of Nevada Las Vegas, School of Medicine</fullName>
+                    <default>false</default>
+                    <label>University of Nevada Las Vegas, School of Medicine</label>
+                </value>
+                <value>
+                    <fullName>University of Nevada, Reno School of Medicine</fullName>
+                    <default>false</default>
+                    <label>University of Nevada, Reno School of Medicine</label>
+                </value>
+                <value>
+                    <fullName>University of New Mexico School of Medicine</fullName>
+                    <default>false</default>
+                    <label>University of New Mexico School of Medicine</label>
+                </value>
+                <value>
+                    <fullName>University of North Carolina at Chapel Hill School of Medicine</fullName>
+                    <default>false</default>
+                    <label>University of North Carolina at Chapel Hill School of Medicine</label>
+                </value>
+                <value>
+                    <fullName>University of North Dakota School of Medicine and Health Sciences</fullName>
+                    <default>false</default>
+                    <label>University of North Dakota School of Medicine and Health Sciences</label>
+                </value>
+                <value>
+                    <fullName>University of Oklahoma College of Medicine</fullName>
+                    <default>false</default>
+                    <label>University of Oklahoma College of Medicine</label>
+                </value>
+                <value>
+                    <fullName>University of Pittsburgh School of Medicine</fullName>
+                    <default>false</default>
+                    <label>University of Pittsburgh School of Medicine</label>
+                </value>
+                <value>
+                    <fullName>University of Puerto Rico School of Medicine</fullName>
+                    <default>false</default>
+                    <label>University of Puerto Rico School of Medicine</label>
+                </value>
+                <value>
+                    <fullName>University of Rochester School of Medicine and Dentistry</fullName>
+                    <default>false</default>
+                    <label>University of Rochester School of Medicine and Dentistry</label>
+                </value>
+                <value>
+                    <fullName>University of South Alabama College of Medicine</fullName>
+                    <default>false</default>
+                    <label>University of South Alabama College of Medicine</label>
+                </value>
+                <value>
+                    <fullName>University of South Carolina School of Medicine</fullName>
+                    <default>false</default>
+                    <label>University of South Carolina School of Medicine</label>
+                </value>
+                <value>
+                    <fullName>University of South Carolina School of Medicine Greenville</fullName>
+                    <default>false</default>
+                    <label>University of South Carolina School of Medicine Greenville</label>
+                </value>
+                <value>
+                    <fullName>University of South Dakota, Sanford School of Medicine</fullName>
+                    <default>false</default>
+                    <label>University of South Dakota, Sanford School of Medicine</label>
+                </value>
+                <value>
+                    <fullName>University of Tennessee Health Science Center College of Medicine</fullName>
+                    <default>false</default>
+                    <label>University of Tennessee Health Science Center College of Medicine</label>
+                </value>
+                <value>
+                    <fullName>University of Texas Medical Branch School of Medicine</fullName>
+                    <default>false</default>
+                    <label>University of Texas Medical Branch School of Medicine</label>
+                </value>
+                <value>
+                    <fullName>University of Texas Rio Grande Valley School of Medicine</fullName>
+                    <default>false</default>
+                    <label>University of Texas Rio Grande Valley School of Medicine</label>
+                </value>
+                <value>
+                    <fullName>University of Texas School of Medicine at San Antonio</fullName>
+                    <default>false</default>
+                    <label>University of Texas School of Medicine at San Antonio</label>
+                </value>
+                <value>
+                    <fullName>University of Texas Southwestern Medical School</fullName>
+                    <default>false</default>
+                    <label>University of Texas Southwestern Medical School</label>
+                </value>
+                <value>
+                    <fullName>University of Texas at Austin Dell Medical School</fullName>
+                    <default>false</default>
+                    <label>University of Texas at Austin Dell Medical School</label>
+                </value>
+                <value>
+                    <fullName>University of Utah School of Medicine</fullName>
+                    <default>false</default>
+                    <label>University of Utah School of Medicine</label>
+                </value>
+                <value>
+                    <fullName>University of Virginia School of Medicine</fullName>
+                    <default>false</default>
+                    <label>University of Virginia School of Medicine</label>
+                </value>
+                <value>
+                    <fullName>University of Washington School of Medicine</fullName>
+                    <default>false</default>
+                    <label>University of Washington School of Medicine</label>
+                </value>
+                <value>
+                    <fullName>University of Wisconsin School of Medicine and Public Health</fullName>
+                    <default>false</default>
+                    <label>University of Wisconsin School of Medicine and Public Health</label>
+                </value>
+                <value>
+                    <fullName>Vanderbilt University School of Medicine</fullName>
+                    <default>false</default>
+                    <label>Vanderbilt University School of Medicine</label>
+                </value>
+                <value>
+                    <fullName>Virginia Commonwealth University School of Medicine</fullName>
+                    <default>false</default>
+                    <label>Virginia Commonwealth University School of Medicine</label>
+                </value>
+                <value>
+                    <fullName>Virginia Tech Carilion School of Medicine</fullName>
+                    <default>false</default>
+                    <label>Virginia Tech Carilion School of Medicine</label>
+                </value>
+                <value>
+                    <fullName>Wake Forest School of Medicine of Wake Forest Baptist Medical Center</fullName>
+                    <default>false</default>
+                    <label>Wake Forest School of Medicine of Wake Forest Baptist Medical Center</label>
+                </value>
+                <value>
+                    <fullName>Washington State University Elson S. Floyd College of Medicine</fullName>
+                    <default>false</default>
+                    <label>Washington State University Elson S. Floyd College of Medicine</label>
+                </value>
+                <value>
+                    <fullName>Washington University in St. Louis School of Medicine</fullName>
+                    <default>false</default>
+                    <label>Washington University in St. Louis School of Medicine</label>
+                </value>
+                <value>
+                    <fullName>Wayne State University School of Medicine</fullName>
+                    <default>false</default>
+                    <label>Wayne State University School of Medicine</label>
+                </value>
+                <value>
+                    <fullName>Weill Cornell Medicine</fullName>
+                    <default>false</default>
+                    <label>Weill Cornell Medicine</label>
+                </value>
+                <value>
+                    <fullName>West Virginia University School of Medicine</fullName>
+                    <default>false</default>
+                    <label>West Virginia University School of Medicine</label>
+                </value>
+                <value>
+                    <fullName>Western Michigan University Homer Stryker M.D. School of Medicine</fullName>
+                    <default>false</default>
+                    <label>Western Michigan University Homer Stryker M.D. School of Medicine</label>
+                </value>
+                <value>
+                    <fullName>Wright State University Boonshoft School of Medicine</fullName>
+                    <default>false</default>
+                    <label>Wright State University Boonshoft School of Medicine</label>
+                </value>
+                <value>
+                    <fullName>Yale School of Medicine</fullName>
+                    <default>false</default>
+                    <label>Yale School of Medicine</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Membership_Activation_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Membership Activation Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Membership_Reinstatement_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Membership Reinstatement Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Membership_Termination_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Membership Termination Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>MobilePhone</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>Name</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>New_Physician__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Set by regular process (see Design Doc 2, BR 571/AD-1582)
+Fields and/or Badges can be used for Pricing Attributes.</description>
+        <externalId>false</externalId>
+        <label>New Physician</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Number_of_Year_as_Resident_Member__c</fullName>
+        <externalId>false</externalId>
+        <label>Number of Year as Resident Member</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OrderApi__Annual_Engagement_Score__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Aggregates the Contact&apos;s active engagement scores from it&apos;s badge records for the current year.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Aggregates the Contact&apos;s active engagement scores from it&apos;s badge records for the current year.</inlineHelpText>
+        <label>Annual Engagement Score</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OrderApi__Assistant_Do_Not_Call__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Do Not Call the Contact&apos;s Assistant Phone.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Do Not Call the Contact&apos;s Assistant Phone.</inlineHelpText>
+        <label>Assistant Do Not Call</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>OrderApi__Assistant_Email_Opt_Out__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>The Contact&apos;s Assistant will not receive email communications.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The Contact&apos;s Assistant will not receive email communications.</inlineHelpText>
+        <label>Assistant Email Opt Out</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>OrderApi__Assistant_Email__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The Contact&apos;s Assistant Email address.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The Contact&apos;s Assistant Email address.</inlineHelpText>
+        <label>Assistant Email</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OrderApi__Badges__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This field lists all the active badges in alphabetical order including all badges inherited from it&apos;s parent account or it&apos;s parent account through flowdown (when enabled)</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This field lists all the active badges in alphabetical order including all badges inherited from it&apos;s parent account or it&apos;s parent account through flowdown (when enabled)</inlineHelpText>
+        <label>Badges</label>
+        <length>131072</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>OrderApi__Home_Do_Not_Call__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Do Not Call the Contact&apos;s Home Phone.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Do Not Call the Contact&apos;s Home Phone.</inlineHelpText>
+        <label>Home Do Not Call</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>OrderApi__Is_Primary_Contact__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>Id == Account.OrderApi__Primary_Contact__r.Id</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Is Primary Contact</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>OrderApi__Lifetime_Engagement_Score__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Aggregates the Contact&apos;s active engagement scores from it&apos;s badge records.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Aggregates the Contact&apos;s active engagement scores from it&apos;s badge records.</inlineHelpText>
+        <label>Lifetime Engagement Score</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OrderApi__Mobile_Do_Not_Call__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Do Not Call the Contact&apos;s Mobile Phone.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Do Not Call the Contact&apos;s Mobile Phone.</inlineHelpText>
+        <label>Mobile Do Not Call</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>OrderApi__Other_Do_Not_Call__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Do Not Call the Contact&apos;s Other Phone.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Do Not Call the Contact&apos;s Other Phone.</inlineHelpText>
+        <label>Other Do Not Call</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>OrderApi__Other_Email_Opt_Out__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Contact will not receive communications to their Other Email.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Contact will not receive communications to their Other Email.</inlineHelpText>
+        <label>Other Email Opt Out</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>OrderApi__Other_Email__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Other/Additional Email for the Contact.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Other/Additional Email for the Contact.</inlineHelpText>
+        <label>Other Email</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OrderApi__Outstanding_Credits__c</fullName>
+        <deprecated>false</deprecated>
+        <description>** System Calculated ** The sum of the Credit Memo Balance Due field for all Credit Memos linked to this customer.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>** System Calculated ** The sum of the Credit Memo Balance Due field for all Credit Memos linked to this customer.</inlineHelpText>
+        <label>Outstanding Credits</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>OrderApi__Personal_Email_Opt_Out__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Contact will not receive communications to their Personal Email.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Contact will not receive communications to their Personal Email.</inlineHelpText>
+        <label>Personal Email Opt Out</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>OrderApi__Personal_Email__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Personal/Home Email address for the Contact.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Personal/Home Email address for the Contact.</inlineHelpText>
+        <label>Personal Email</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OrderApi__Potential_Duplicate_Contacts__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Potential Duplicate Contacts</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OrderApi__Preferred_Email_Type__c</fullName>
+        <deprecated>false</deprecated>
+        <description>**Defaults to Personal Email** Select the Preferred Email Type for the Contact. The value of the corresponding email field will update the standard Contact Email field.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>**Defaults to Personal Email** Select the Preferred Email Type for the Contact. The value of the corresponding email field will update the standard Contact Email field.</inlineHelpText>
+        <label>Preferred Email Type</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Personal</fullName>
+                    <default>true</default>
+                    <label>Personal</label>
+                </value>
+                <value>
+                    <fullName>Work</fullName>
+                    <default>false</default>
+                    <label>Work</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>Assistant</fullName>
+                    <default>false</default>
+                    <label>Assistant</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>OrderApi__Preferred_Email__c</fullName>
+        <deprecated>false</deprecated>
+        <description>**System Calculated** The Preferred Email for the Contact is calculated by mapping the Preferred Email Type to it&apos;s corresponding field&apos;s value.</description>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL(OrderApi__Preferred_Email_Type__c,&quot;Personal&quot;) &amp;&amp; NOT(OrderApi__Personal_Email_Opt_Out__c), OrderApi__Personal_Email__c,
+IF(ISPICKVAL(OrderApi__Preferred_Email_Type__c,&quot;Work&quot;) &amp;&amp; NOT(OrderApi__Work_Email_Opt_Out__c), OrderApi__Work_Email__c,
+IF(ISPICKVAL(OrderApi__Preferred_Email_Type__c,&quot;Other&quot;) &amp;&amp; NOT(OrderApi__Other_Email_Opt_Out__c),OrderApi__Other_Email__c,
+IF(ISPICKVAL(OrderApi__Preferred_Email_Type__c,&quot;Assistant&quot;) &amp;&amp; NOT(OrderApi__Assistant_Email_Opt_Out__c),OrderApi__Assistant_Email__c, &apos;&apos;))))</formula>
+        <inlineHelpText>**System Calculated** The Preferred Email for the Contact is calculated by mapping the Preferred Email Type to it&apos;s corresponding field&apos;s value.</inlineHelpText>
+        <label>Preferred Email</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OrderApi__Preferred_Phone_Type__c</fullName>
+        <deprecated>false</deprecated>
+        <description>**Defaults to Personal Email** Select the Preferred Phone Type for the Contact. The value of the corresponding phone field will update the standard Contact Phone field.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>**Defaults to Personal Email** Select the Preferred Phone Type for the Contact. The value of the corresponding phone field will update the standard Contact Phone field.</inlineHelpText>
+        <label>Preferred Phone Type</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Mobile</fullName>
+                    <default>true</default>
+                    <label>Mobile</label>
+                </value>
+                <value>
+                    <fullName>Home</fullName>
+                    <default>false</default>
+                    <label>Home</label>
+                </value>
+                <value>
+                    <fullName>Work</fullName>
+                    <default>false</default>
+                    <label>Work</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>Assistant</fullName>
+                    <default>false</default>
+                    <label>Assistant</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>OrderApi__Preferred_Phone__c</fullName>
+        <deprecated>false</deprecated>
+        <description>**System Calculated** The Preferred Phone for the Contact is calculated by mapping the Preferred Phone Type to it&apos;s corresponding field&apos;s value.</description>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL(OrderApi__Preferred_Phone_Type__c,&quot;Mobile&quot;) &amp;&amp; NOT(OrderApi__Mobile_Do_Not_Call__c), MobilePhone,
+IF(ISPICKVAL(OrderApi__Preferred_Phone_Type__c,&quot;Home&quot;) &amp;&amp; NOT(OrderApi__Home_Do_Not_Call__c), HomePhone,
+IF(ISPICKVAL(OrderApi__Preferred_Phone_Type__c,&quot;Work&quot;) &amp;&amp; NOT(OrderApi__Work_Do_Not_Call__c),OrderApi__Work_Phone__c,
+IF(ISPICKVAL(OrderApi__Preferred_Phone_Type__c,&quot;Other&quot;) &amp;&amp; NOT(OrderApi__Other_Do_Not_Call__c),OtherPhone,
+IF(ISPICKVAL(OrderApi__Preferred_Phone_Type__c,&quot;Assistant&quot;) &amp;&amp; NOT(OrderApi__Assistant_Do_Not_Call__c),AssistantPhone,
+&apos;&apos;)))))</formula>
+        <inlineHelpText>**System Calculated** The Preferred Phone for the Contact is calculated by mapping the Preferred Phone Type to it&apos;s corresponding field&apos;s value.</inlineHelpText>
+        <label>Preferred Phone</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OrderApi__Price_Rules_Usages__c</fullName>
+        <deprecated>false</deprecated>
+        <description>** SYSTEM ** JSON of price rules</description>
+        <externalId>false</externalId>
+        <inlineHelpText>** SYSTEM ** JSON of price rules</inlineHelpText>
+        <label>SYSTEM</label>
+        <length>131072</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>OrderApi__Privacy_Settings__c</fullName>
+        <deprecated>false</deprecated>
+        <description>**Defaults to private** This field sets the visibility settings when contact search is enabled.
+            Public: Any user in the system can search. Private: Searchable by authenticated users only. Unlisted: Can not be searched at all.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>**Defaults to private** This field sets the visibility settings when contact search is enabled.
+            Public: Any user in the system can search. Private: Searchable by authenticated users only. Unlisted: Can not be searched at all.</inlineHelpText>
+        <label>Privacy Settings</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>public</fullName>
+                    <default>false</default>
+                    <label>public</label>
+                </value>
+                <value>
+                    <fullName>private</fullName>
+                    <default>true</default>
+                    <label>private</label>
+                </value>
+                <value>
+                    <fullName>unlisted</fullName>
+                    <default>false</default>
+                    <label>unlisted</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>OrderApi__Sync_Address_Billing__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>When checked, the system will overwrite the parent account&apos;s billing address with the value of the contact&apos;s mailing address. Default is unchecked.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>When checked, the system will overwrite the parent account&apos;s billing address with the value of the contact&apos;s mailing address. Default is unchecked.</inlineHelpText>
+        <label>Sync Address w/Account (Billing)</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>OrderApi__Sync_Address_Shipping__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>When checked, the system will overwrite the parent account&apos;s shipping address with the value of the contact&apos;s mailing address. Default is unchecked.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>When checked, the system will overwrite the parent account&apos;s shipping address with the value of the contact&apos;s mailing address. Default is unchecked.</inlineHelpText>
+        <label>Sync Address w/Account (Shipping)</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>OrderApi__Sync_Email__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>When checked, the system will overwrite the parent account&apos;s phone with the value of the contact&apos;s preferred phone. Default is unchecked.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>When checked, the system will overwrite the parent account&apos;s phone with the value of the contact&apos;s preferred phone. Default is unchecked.</inlineHelpText>
+        <label>Sync Preferred Email w/Account</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>OrderApi__Sync_Phone__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>When checked, the system will overwrite the parent account&apos;s phone with the value of the contact&apos;s preferred phone. Default is unchecked.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>When checked, the system will overwrite the parent account&apos;s phone with the value of the contact&apos;s preferred phone. Default is unchecked.</inlineHelpText>
+        <label>Sync Preferred Phone w/Account</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>OrderApi__Work_Do_Not_Call__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Do Not Call the Contact&apos;s Work Phone.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Do Not Call the Contact&apos;s Work Phone.</inlineHelpText>
+        <label>Work Do Not Call</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>OrderApi__Work_Email_Opt_Out__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Contact will not receive communications to their Work Email.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Contact will not receive communications to their Work Email.</inlineHelpText>
+        <label>Work Email Opt Out</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>OrderApi__Work_Email__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Work/Business Email for the Contact.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Work/Business Email for the Contact.</inlineHelpText>
+        <label>Work Email</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OrderApi__Work_Phone__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The Work Phone for the Contact.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The Work Phone for the Contact.</inlineHelpText>
+        <label>Work Phone</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>OtherAddress</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>OtherPhone</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>OwnerId</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>PagesApi__Cookie_Usage_Accepted__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>When checked, the Contact has accepted the Cookie Usage Prompt and will not be prompted again.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>When checked, the Contact has accepted the Cookie Usage Prompt and will not be prompted again.</inlineHelpText>
+        <label>Cookie Usage Accepted</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>PagesApi__Site__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Select the Site you wish to use as the default Site for the Contact.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Select the Site you wish to use as the default Site for the Contact.</inlineHelpText>
+        <label>Site</label>
+        <referenceTo>PagesApi__Site__c</referenceTo>
+        <relationshipLabel>Contacts</relationshipLabel>
+        <relationshipName>Contacts</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Phone</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>Qualify_for_Active_Membership__c</fullName>
+        <externalId>false</externalId>
+        <formula>if(AND(Graduation_Date__c &lt; Today(),  Residency_Completion_Date__c &lt; Today()), TRUE, false)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Qualify for Active Membership</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Qualify_for_Resident_Membership__c</fullName>
+        <externalId>false</externalId>
+        <formula>if(Residency_Completion_Date__c &gt; today(), True, false)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Qualify for Resident Membership</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Reason_for_Chapter_Change__c</fullName>
+        <externalId>false</externalId>
+        <label>Reason for Chapter Change</label>
+        <length>200</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ReportsToId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Request_Type_Change__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Request Type Change</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Residency_Completion_Date__c</fullName>
+        <description>Physician&apos;s residency completion date</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Physician&apos;s residency completion date</inlineHelpText>
+        <label>Residency Completion Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Start_date__c</fullName>
+        <externalId>false</externalId>
+        <label>Start date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>State_Chapter__c</fullName>
+        <externalId>false</externalId>
+        <label>State Chapter</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Alabama</fullName>
+                    <default>false</default>
+                    <label>Alabama</label>
+                </value>
+                <value>
+                    <fullName>Alaska</fullName>
+                    <default>false</default>
+                    <label>Alaska</label>
+                </value>
+                <value>
+                    <fullName>Arizona</fullName>
+                    <default>false</default>
+                    <label>Arizona</label>
+                </value>
+                <value>
+                    <fullName>Arkansas</fullName>
+                    <default>false</default>
+                    <label>Arkansas</label>
+                </value>
+                <value>
+                    <fullName>California</fullName>
+                    <default>false</default>
+                    <label>California</label>
+                </value>
+                <value>
+                    <fullName>Colorado</fullName>
+                    <default>false</default>
+                    <label>Colorado</label>
+                </value>
+                <value>
+                    <fullName>Connecticut</fullName>
+                    <default>false</default>
+                    <label>Connecticut</label>
+                </value>
+                <value>
+                    <fullName>Delaware</fullName>
+                    <default>false</default>
+                    <label>Delaware</label>
+                </value>
+                <value>
+                    <fullName>District of Columbia</fullName>
+                    <default>false</default>
+                    <label>District of Columbia</label>
+                </value>
+                <value>
+                    <fullName>Florida</fullName>
+                    <default>false</default>
+                    <label>Florida</label>
+                </value>
+                <value>
+                    <fullName>Georgia</fullName>
+                    <default>false</default>
+                    <label>Georgia</label>
+                </value>
+                <value>
+                    <fullName>Guam</fullName>
+                    <default>false</default>
+                    <label>Guam</label>
+                </value>
+                <value>
+                    <fullName>Hawaii</fullName>
+                    <default>false</default>
+                    <label>Hawaii</label>
+                </value>
+                <value>
+                    <fullName>Idaho</fullName>
+                    <default>false</default>
+                    <label>Idaho</label>
+                </value>
+                <value>
+                    <fullName>Illinois</fullName>
+                    <default>false</default>
+                    <label>Illinois</label>
+                </value>
+                <value>
+                    <fullName>Indiana</fullName>
+                    <default>false</default>
+                    <label>Indiana</label>
+                </value>
+                <value>
+                    <fullName>Iowa</fullName>
+                    <default>false</default>
+                    <label>Iowa</label>
+                </value>
+                <value>
+                    <fullName>Kansas</fullName>
+                    <default>false</default>
+                    <label>Kansas</label>
+                </value>
+                <value>
+                    <fullName>Kentucky</fullName>
+                    <default>false</default>
+                    <label>Kentucky</label>
+                </value>
+                <value>
+                    <fullName>Louisiana</fullName>
+                    <default>false</default>
+                    <label>Louisiana</label>
+                </value>
+                <value>
+                    <fullName>Maine</fullName>
+                    <default>false</default>
+                    <label>Maine</label>
+                </value>
+                <value>
+                    <fullName>Maryland</fullName>
+                    <default>false</default>
+                    <label>Maryland</label>
+                </value>
+                <value>
+                    <fullName>Massachusetts</fullName>
+                    <default>false</default>
+                    <label>Massachusetts</label>
+                </value>
+                <value>
+                    <fullName>Michigan</fullName>
+                    <default>false</default>
+                    <label>Michigan</label>
+                </value>
+                <value>
+                    <fullName>Minnesota</fullName>
+                    <default>false</default>
+                    <label>Minnesota</label>
+                </value>
+                <value>
+                    <fullName>Mississippi</fullName>
+                    <default>false</default>
+                    <label>Mississippi</label>
+                </value>
+                <value>
+                    <fullName>Missouri</fullName>
+                    <default>false</default>
+                    <label>Missouri</label>
+                </value>
+                <value>
+                    <fullName>Montana</fullName>
+                    <default>false</default>
+                    <label>Montana</label>
+                </value>
+                <value>
+                    <fullName>Nebraska</fullName>
+                    <default>false</default>
+                    <label>Nebraska</label>
+                </value>
+                <value>
+                    <fullName>Nevada</fullName>
+                    <default>false</default>
+                    <label>Nevada</label>
+                </value>
+                <value>
+                    <fullName>New Hampshire</fullName>
+                    <default>false</default>
+                    <label>New Hampshire</label>
+                </value>
+                <value>
+                    <fullName>New Jersey</fullName>
+                    <default>false</default>
+                    <label>New Jersey</label>
+                </value>
+                <value>
+                    <fullName>New Mexico</fullName>
+                    <default>false</default>
+                    <label>New Mexico</label>
+                </value>
+                <value>
+                    <fullName>New York</fullName>
+                    <default>false</default>
+                    <label>New York</label>
+                </value>
+                <value>
+                    <fullName>North Carolina</fullName>
+                    <default>false</default>
+                    <label>North Carolina</label>
+                </value>
+                <value>
+                    <fullName>North Dakota</fullName>
+                    <default>false</default>
+                    <label>North Dakota</label>
+                </value>
+                <value>
+                    <fullName>Ohio</fullName>
+                    <default>false</default>
+                    <label>Ohio</label>
+                </value>
+                <value>
+                    <fullName>Oklahoma</fullName>
+                    <default>false</default>
+                    <label>Oklahoma</label>
+                </value>
+                <value>
+                    <fullName>Oregon</fullName>
+                    <default>false</default>
+                    <label>Oregon</label>
+                </value>
+                <value>
+                    <fullName>Pennsylvania</fullName>
+                    <default>false</default>
+                    <label>Pennsylvania</label>
+                </value>
+                <value>
+                    <fullName>Puerto Rico</fullName>
+                    <default>false</default>
+                    <label>Puerto Rico</label>
+                </value>
+                <value>
+                    <fullName>Rhode Island</fullName>
+                    <default>false</default>
+                    <label>Rhode Island</label>
+                </value>
+                <value>
+                    <fullName>South Carolina</fullName>
+                    <default>false</default>
+                    <label>South Carolina</label>
+                </value>
+                <value>
+                    <fullName>South Dakota</fullName>
+                    <default>false</default>
+                    <label>South Dakota</label>
+                </value>
+                <value>
+                    <fullName>Tennessee</fullName>
+                    <default>false</default>
+                    <label>Tennessee</label>
+                </value>
+                <value>
+                    <fullName>Texas</fullName>
+                    <default>false</default>
+                    <label>Texas</label>
+                </value>
+                <value>
+                    <fullName>Utah</fullName>
+                    <default>false</default>
+                    <label>Utah</label>
+                </value>
+                <value>
+                    <fullName>Vermont</fullName>
+                    <default>false</default>
+                    <label>Vermont</label>
+                </value>
+                <value>
+                    <fullName>Virgin Islands</fullName>
+                    <default>false</default>
+                    <label>Virgin Islands</label>
+                </value>
+                <value>
+                    <fullName>Virginia</fullName>
+                    <default>false</default>
+                    <label>Virginia</label>
+                </value>
+                <value>
+                    <fullName>Washington</fullName>
+                    <default>false</default>
+                    <label>Washington</label>
+                </value>
+                <value>
+                    <fullName>West Virginia</fullName>
+                    <default>false</default>
+                    <label>West Virginia</label>
+                </value>
+                <value>
+                    <fullName>Wisconsin</fullName>
+                    <default>false</default>
+                    <label>Wisconsin</label>
+                </value>
+                <value>
+                    <fullName>Wyoming</fullName>
+                    <default>false</default>
+                    <label>Wyoming</label>
+                </value>
+                <value>
+                    <fullName>Uniformed Services</fullName>
+                    <default>false</default>
+                    <label>Uniformed Services</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Title</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>Total_Months_of_Membership__c</fullName>
+        <externalId>false</externalId>
+        <label>Total Months of Membership</label>
+        <precision>18</precision>
+        <required>true</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <listViews>
+        <fullName>AllContacts</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>CONTACT.TITLE</columns>
+        <columns>CONTACT.PHONE1</columns>
+        <columns>CONTACT.EMAIL</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <label>All Contacts</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>BirthdaysThisMonth</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>CONTACT.TITLE</columns>
+        <columns>CONTACT.PHONE1</columns>
+        <columns>CONTACT.EMAIL</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>CONTACT.BIRTHDATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CONTACT.BIRTHDATE</field>
+            <operation>equals</operation>
+            <value>THIS_MONTH</value>
+        </filters>
+        <label>Birthdays This Month</label>
+    </listViews>
+    <listViews>
+        <fullName>NewThisWeek</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>CONTACT.TITLE</columns>
+        <columns>CONTACT.PHONE1</columns>
+        <columns>CONTACT.EMAIL</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CONTACT.CREATED_DATE</field>
+            <operation>equals</operation>
+            <value>THIS_WEEK</value>
+        </filters>
+        <label>New This Week</label>
+    </listViews>
+    <searchLayouts>
+        <customTabListAdditionalFields>FULL_NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ACCOUNT.NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CONTACT.PHONE1</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>FULL_NAME</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>ACCOUNT.NAME</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>ACCOUNT.SITE</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>FULL_NAME</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ACCOUNT.NAME</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ACCOUNT.SITE</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CONTACT.PHONE1</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CONTACT.PHONE3</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CONTACT.PHONE4</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CONTACT.PHONE5</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CONTACT.PHONE6</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>OrderApi__Work_Phone__c</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>FULL_NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ACCOUNT.NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ACCOUNT.SITE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CONTACT.PHONE1</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CONTACT.EMAIL</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
+    <webLinks>
+        <fullName>GoogleMaps</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Google Maps</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>http://maps.google.com/maps?f=q&amp;hl=en&amp;q={!Contact_MailingStreet}+{!Contact_MailingCity}+{!Contact_MailingState}&amp;om=1</url>
+    </webLinks>
+    <webLinks>
+        <fullName>GoogleSearch</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Google Search</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>http://www.google.com/search?q={!Contact_FirstName} {!Contact_LastName}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>SendGmail</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Send Gmail</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>https://mail.google.com/mail?view=cm&amp;tf=0&amp;to={!Contact_Email}&lt;{!Contact_LastName}, {!Contact_FirstName}&gt;&amp;tf=1</url>
+    </webLinks>
+    <webLinks>
+        <fullName>YahooMaps</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>true</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>true</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Yahoo! Maps</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>true</showsLocation>
+        <showsStatus>true</showsStatus>
+        <url>http://maps.yahoo.com/py/maps.py?cn={!Contact_MailingCountry}&amp;csz={!Contact_MailingCity}+{!Contact_MailingState}+{!Contact_MailingPostalCode}+&amp;addr={!Contact_MailingAddress}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>YahooWeather</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Yahoo! Weather</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>http://weather.yahoo.com/search/weather2?p={!Contact_MailingPostalCode}</url>
+    </webLinks>
+</CustomObject>

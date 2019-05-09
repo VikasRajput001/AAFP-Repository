@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>true</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>Fon_Activation_Date__c</fullName>
+        <description>Will be the date the membership is approved.</description>
+        <externalId>false</externalId>
+        <label>Activation Date</label>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Fon_Chapter_Join_Date__c</fullName>
+        <description>Date to indicate when Member Joined their chapter.</description>
+        <externalId>false</externalId>
+        <label>Chapter Join Date</label>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Fon_Dues_Paid_by_Chapter__c</fullName>
+        <description>This field is used in the generation of the Sales Order for Membership – the number should be the percent discount to be applied to the total membership charge. 
+
+This field is also used to update the Contact object, which is then used in the solution for requirement BR 541 / AD-1553  (See Design Doc 2)</description>
+        <externalId>false</externalId>
+        <label>Dues Paid by Chapter</label>
+        <precision>18</precision>
+        <required>true</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Fon_Dues_Paid_by_Residency_Program__c</fullName>
+        <description>This field is used in the generation of the Sales Order for Membership  – the number should be the percent discount to be applied to the total membership charge. 
+
+This field is also used to update the Contact object, which is then used in the solution for requirement BR 538 / AD-1552 (See Design Doc 2)</description>
+        <externalId>false</externalId>
+        <label>Dues Paid by Residency Program</label>
+        <precision>18</precision>
+        <required>true</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Fon_Dues_Waived__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Used if Staff waived Membership dues for this membership.
+10/24/18 MSO Question + 11/16/18 Ftva answer:  This is a manual field in support of BR 545/ AD-1557 for reporting purposes. Dues waived would also be indicated by the Price Override on the Sales Order. This field can be deleted if AAFP won’t want to quickly refer to it.</description>
+        <externalId>false</externalId>
+        <label>Dues Waived</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Fon_Extended_Training_Date__c</fullName>
+        <description>Needed to calculate New Physician Status
+ Used by BR 180/AD-187 and BR 571/AD-1582</description>
+        <externalId>false</externalId>
+        <label>Extended Training Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Fon_Foundation_Contribution_Information__c</fullName>
+        <description>This field will be used to capture the numeric value of contributes made to the foundation when a member signs up.
+Used by AD-1526</description>
+        <externalId>false</externalId>
+        <label>Foundation Contribution Information</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Fon_Join_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Join Date</label>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Fon_Life_Approved_Flag__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Will be used to indicate if member qualifies for Life membership.</description>
+        <externalId>false</externalId>
+        <label>Life Approved Flag</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Fon_Medical_School_Graduation_Date__c</fullName>
+        <description>Used by BR 179/AD-186 (See Design Doc 2)</description>
+        <externalId>false</externalId>
+        <label>Medical School Graduation Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Fon_Membership_Activation_Date__c</fullName>
+        <description>For this specific membership
+Set by system if pushed from AAFP
+Set by staff if manually creating a new membership in the backend</description>
+        <externalId>false</externalId>
+        <label>Membership Activation Date</label>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Fon_Membership_Local__c</fullName>
+        <externalId>false</externalId>
+        <label>Membership Local</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Fon_Membership_State_Chapter__c</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Kansas City</fullName>
+                    <default>false</default>
+                    <label>Kansas City</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Kansas</controllingFieldValue>
+                <valueName>Kansas City</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Fon_Membership_State_Chapter__c</fullName>
+        <description>This Picklist will include all valid Membership types in the system.
+May be set by AAFP push code, or manually by a staff member in the backend.</description>
+        <externalId>false</externalId>
+        <label>Membership State/Chapter</label>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Virginia</fullName>
+                    <default>false</default>
+                    <label>Virginia</label>
+                </value>
+                <value>
+                    <fullName>California</fullName>
+                    <default>false</default>
+                    <label>California</label>
+                </value>
+                <value>
+                    <fullName>Kansas</fullName>
+                    <default>false</default>
+                    <label>Kansas</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Fon_Membership_Type__c</fullName>
+        <description>This Picklist will include all valid Membership types in the system. Examples of Types would be Resident, Student, Life, etc.</description>
+        <externalId>false</externalId>
+        <label>Membership Type</label>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Resident</fullName>
+                    <default>false</default>
+                    <label>Resident</label>
+                </value>
+                <value>
+                    <fullName>Student</fullName>
+                    <default>false</default>
+                    <label>Student</label>
+                </value>
+                <value>
+                    <fullName>Life</fullName>
+                    <default>false</default>
+                    <label>Life</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Fon_Other_Price_Override__c</fullName>
+        <description>Used by Staff to specify how much should be charged for this membership, if not the standard amount. Staff can enter “0” if nothing should be charged for this new Membership.</description>
+        <externalId>false</externalId>
+        <label>Other Price Override</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Fon_PAC_Contribution_Information__c</fullName>
+        <description>This field will be used to capture the numeric value of contributes made to the PAC when a member signs up.
+Used by AD-1527</description>
+        <externalId>false</externalId>
+        <label>PAC Contribution Information</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Fon_Residency_Program_Graduation_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Residency Program Graduation Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Fon_Residency_Training_Status__c</fullName>
+        <description>Used during Resident to Active upgrade process</description>
+        <externalId>false</externalId>
+        <label>Residency Training Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>None</fullName>
+                    <default>false</default>
+                    <label>None</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Fon_Staging_Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Staging Status</label>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>New</fullName>
+                    <default>false</default>
+                    <label>New</label>
+                </value>
+                <value>
+                    <fullName>Approved</fullName>
+                    <default>false</default>
+                    <label>Approved</label>
+                </value>
+                <value>
+                    <fullName>Active</fullName>
+                    <default>false</default>
+                    <label>Active</label>
+                </value>
+                <value>
+                    <fullName>Inactive</fullName>
+                    <default>false</default>
+                    <label>Inactive</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Fon_Subscription_Plan__c</fullName>
+        <externalId>false</externalId>
+        <label>Subscription Plan</label>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Fon_Membership_Type__c</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>1/1 – 12/31, single paymt</fullName>
+                    <default>false</default>
+                    <label>1/1 – 12/31, single paymt</label>
+                </value>
+                <value>
+                    <fullName>1/1 – 12/31, single paymt + autorenew</fullName>
+                    <default>false</default>
+                    <label>1/1 – 12/31, single paymt + autorenew</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Resident</controllingFieldValue>
+                <controllingFieldValue>Life</controllingFieldValue>
+                <valueName>1/1 – 12/31, single paymt</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Student</controllingFieldValue>
+                <valueName>1/1 – 12/31, single paymt + autorenew</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <label>Membership Staging</label>
+    <nameField>
+        <label>Membership Staging Name</label>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Membership Stagings</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>
