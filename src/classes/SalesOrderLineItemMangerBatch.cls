@@ -1,10 +1,10 @@
-global class Fon_SalesOrderLineItemMangerBatch implements Database.Batchable<sObject> {
+global class Fon_SalesOrderLineItemManagerBatch implements Database.Batchable<sObject> {
     private final String strConveniencefee = 'Convenience fee';
     /**
         @Author: RSystem
         @Description: To process the soli records where creation date on SOLI is today.
     */
-    global Database.QueryLocator start(Database.BatchableContext BC) { 
+    global Database.QueryLocator start(Database.BatchableContext BC) {
         // Collect the batches of records
         return Database.getQueryLocator('SELECT Id,Name,OrderApi__Item__c,OrderApi__Item__r.Is_Foundation_Donation__c,OrderApi__List_Price__c,OrderApi__Price_Override__c,'+
                                             'OrderApi__Is_Renewal__c,OrderApi__Subscription__c,OrderApi__Subscription__r.OrderApi__Subscription_Plan__c,'+
@@ -46,7 +46,7 @@ global class Fon_SalesOrderLineItemMangerBatch implements Database.Batchable<sOb
         if(!setSalesOrderId.isEmpty()){
             List<OrderApi__Sales_Order__c> lstSalesOrder = new List<OrderApi__Sales_Order__c>();
             for(Id eachSOId : setSalesOrderId){
-                lstSalesOrder.add(new OrderApi__Sales_Order__c(Id=eachSOId, Added_SOLI__c=true));
+                lstSalesOrder.add(new OrderApi__Sales_Order__c(Id = eachSOId,Fon_Added_SOLI__c = true));
             }
             update lstSalesOrder;
         }
